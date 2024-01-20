@@ -1,0 +1,19 @@
+.product_{
+    width: 250px;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border:1px solid black;
+    padding: 10px;
+}
+.product_ >img{
+    width:200px;    
+}
+.container{
+    display: grid;
+    /* grid-row: 4; */
+    grid-template-columns: repeat(auto-fill, minmax(250px, 2fr));
+    gap: 10px;
+}

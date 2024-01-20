@@ -1,0 +1,12 @@
+.inputContainer_{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+input{
+    width: 100%;
+}
+.installments_{
+    display: flex;
+    justify-content: space-between;
+}
